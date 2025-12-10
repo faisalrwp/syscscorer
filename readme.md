@@ -42,11 +42,9 @@ Regularization fallback
 
 User-defined:
 
-β minimum
-
-β maximum
-
-β step size
+- β minimum
+- β maximum
+- β step size
 
 Computes C for each β value
 
@@ -63,14 +61,10 @@ Multi-component selection
 Visualizes C-value change vs β
 
 Supports:
-
-PNG
-
-JPG
-
-PDF
-
-SVG
+- PNG
+- JPG
+- PDF
+- SVG
 
 Perfect for presentations & reports
 
@@ -86,37 +80,45 @@ Beautiful modern UI styles
 
 One-click creation of CSV templates:
 
-Dependency Matrix (A)
-
-Component Scores (S)
+- Dependency Matrix (A)
+- Component Scores (S)
 
 ## 📷 Screenshots
 Coming Soon 
 
 ## Project Structure
 
+'''
 📂 Project Structure
 ├── cyrescof_gui.py
 ├── settings.json
 ├── README.md
 └── docs/
     └── images/
+'''
 
 ## 🔧 Installation
+
 ### ✔ 1. Clone the Repository
+'''
 git clone https://github.com/your-username/CyReScoF.git
 cd CyReScoF
+'''
 
 ### ✔ 2. Install Dependencies
+'''
 pip install numpy pandas ttkbootstrap matplotlib
+'''
 
 ### ▶️ Running the Application
+'''
 python cyrescof_gui.py
-
+'''
 
 The GUI will start instantly.
 
 ## 🧠 How It Works
+
 ### 🟦 Input
 
 A: Dependency matrix (n×n)
@@ -145,23 +147,17 @@ CyReScoF solves:
 
 with:
 
-Regularization fallback
-
-Eigen-based diagnostics
-
-Automatic alignment of S to A
+- Regularization fallback
+- Eigen-based diagnostics
+- Automatic alignment of S to A
 
 ### 🟩 Output
 
-C values
-
-Diagnostics
-
-Exportable CSV
-
-Graph plots
-
-Sensitivity matrix
+- C values
+- Diagnostics
+- Exportable CSV
+- Graph plots
+- Sensitivity matrix
 
 ## 📊 Sensitivity Analysis Formula
 
@@ -218,12 +214,9 @@ C(β)=(I−βA)
 (1−S)
 
 Results are:
-
-Listed in table
-
-Exportable
-
-Visualizable
+- Listed in table
+- Exportable
+- Visualizable
 
 ## 💡 Use Cases
 ✓ Cyber Resilience Studies
@@ -233,29 +226,29 @@ Visualizable
 ✓ Academic Research & Teaching
 
 ## 🗂 Export Options
-Feature	Format
-C Results	CSV
-Sensitivity Results	CSV
-Graphs	PNG, JPG, PDF, SVG
+
+| Feature	           | Format |
+|-|-|
+| C Results	           | CSV |
+| Sensitivity Results  | CSV |
+| Graphs	           | PNG, JPG, PDF, SVG |
 
 ## 🛠 Tech Stack
-Component	Library
-GUI	ttkbootstrap
-Data Handling	pandas
-Math	numpy
-Plotting	matplotlib
-File Export	csv
+| Component	    | Library |
+|-|-|
+| GUI	        | ttkbootstrap |
+| Data Handling	| pandas |
+| Math	        | numpy |
+| Plotting	    | matplotlib |
+| File Export	| csv |
 
 ## 🤝 Contributing
 
 Pull requests are welcome!
 Please ensure that:
-
-Existing functionality stays intact
-
-New features are modular
-
-UI/UX remains consistent
+- Existing functionality stays intact
+- New features are modular
+- UI/UX remains consistent
 
 ## 📜 License
 
