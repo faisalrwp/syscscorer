@@ -1,7 +1,8 @@
-🌐 CyReScoF – Compromise Vector (C) Calculator
+# 🌐 CyReScoF – Compromise Vector (C) Calculator
 A Modern GUI Tool for System Dependency Analysis, Sensitivity Evaluation & Visualization
 <p align="center"> <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python" /> <img src="https://img.shields.io/badge/GUI-ttkbootstrap-success?style=flat-square" /> <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" /> <img src="https://img.shields.io/badge/Powered%20By-Numpy%20%7C%20Pandas-important?style=flat-square&logo=numpy" /> </p>
-📘 Overview
+
+## 📘 Overview
 
 CyReScoF (Cyber Resilience Score Calculation Framework) is a Python-based graphical tool that computes the Compromise Vector (C) using system dependency matrices.
 It supports:
@@ -20,8 +21,8 @@ It supports:
 
 This tool is designed for researchers, analysts, and engineers working with cyber-physical systems, network resilience modeling, or cascading failure analysis.
 
-🚀 Features at a Glance
-🧮 Compromise Vector (C) Calculator
+## 🚀 Features at a Glance
+### 🧮 Compromise Vector (C) Calculator
 
 Solve: (I − βA) C = (1 − S)
 
@@ -37,7 +38,7 @@ Condition number
 
 Regularization fallback
 
-🔁 Sensitivity Analysis (β-min → β-max)
+### 🔁 Sensitivity Analysis (β-min → β-max)
 
 User-defined:
 
@@ -53,7 +54,7 @@ Displays results in a sortable table
 
 Exportable as CSV
 
-📈 Sensitivity Analysis Graph
+### 📈 Sensitivity Analysis Graph
 
 Interactive plotting using matplotlib
 
@@ -73,7 +74,7 @@ SVG
 
 Perfect for presentations & reports
 
-🎨 Theme Customization
+### 🎨 Theme Customization
 
 Based on ttkbootstrap
 
@@ -81,7 +82,7 @@ Live theme switching
 
 Beautiful modern UI styles
 
-📁 Template Generation
+### 📁 Template Generation
 
 One-click creation of CSV templates:
 
@@ -89,13 +90,10 @@ Dependency Matrix (A)
 
 Component Scores (S)
 
-📷 Screenshots
+## 📷 Screenshots
+Coming Soon 
 
-(Add screenshots of your GUI here)
-
-![Compute Tab](docs/images/compute_tab.png)
-![Sensitivity Tab](docs/images/sensitivity_tab.png)
-![Graph Tab](docs/images/graph_tab.png)
+## Project Structure
 
 📂 Project Structure
 ├── cyrescof_gui.py
@@ -104,28 +102,28 @@ Component Scores (S)
 └── docs/
     └── images/
 
-🔧 Installation
-✔ 1. Clone the Repository
+## 🔧 Installation
+### ✔ 1. Clone the Repository
 git clone https://github.com/your-username/CyReScoF.git
 cd CyReScoF
 
-✔ 2. Install Dependencies
+### ✔ 2. Install Dependencies
 pip install numpy pandas ttkbootstrap matplotlib
 
-▶️ Running the Application
+### ▶️ Running the Application
 python cyrescof_gui.py
 
 
 The GUI will start instantly.
 
-🧠 How It Works
-🟦 Input
+## 🧠 How It Works
+### 🟦 Input
 
 A: Dependency matrix (n×n)
 
 S: Component scores (n×1)
 
-🟥 Process
+### 🟥 Process
 
 CyReScoF solves:
 
@@ -153,7 +151,7 @@ Eigen-based diagnostics
 
 Automatic alignment of S to A
 
-🟩 Output
+### 🟩 Output
 
 C values
 
@@ -165,7 +163,7 @@ Graph plots
 
 Sensitivity matrix
 
-📊 Sensitivity Analysis Formula
+## 📊 Sensitivity Analysis Formula
 
 For β in:
 
@@ -227,25 +225,28 @@ Exportable
 
 Visualizable
 
-💡 Use Cases
+## 💡 Use Cases
 ✓ Cyber Resilience Studies
 ✓ Risk Propagation Modeling
 ✓ Dependency Network Analysis
 ✓ Cascading Failure Simulation
 ✓ Academic Research & Teaching
-🗂 Export Options
+
+## 🗂 Export Options
 Feature	Format
 C Results	CSV
 Sensitivity Results	CSV
 Graphs	PNG, JPG, PDF, SVG
-🛠 Tech Stack
+
+## 🛠 Tech Stack
 Component	Library
 GUI	ttkbootstrap
 Data Handling	pandas
 Math	numpy
 Plotting	matplotlib
 File Export	csv
-🤝 Contributing
+
+## 🤝 Contributing
 
 Pull requests are welcome!
 Please ensure that:
@@ -256,12 +257,12 @@ New features are modular
 
 UI/UX remains consistent
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute with attribution.
 
-⭐ Support & Star the Repo
+## ⭐ Support & Star the Repo
 
 If this tool helped you:
 
@@ -269,6 +270,6 @@ If this tool helped you:
 
 It motivates further development.
 
-📬 Contact
+## 📬 Contact
 
 For feature requests or questions, please open an Issue on GitHub.
