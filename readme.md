@@ -88,32 +88,32 @@ Coming Soon
 
 ## Project Structure
 
-'''
+```
 📂 Project Structure
 ├── cyrescof_gui.py
 ├── settings.json
 ├── README.md
 └── docs/
     └── images/
-'''
+```
 
 ## 🔧 Installation
 
 ### ✔ 1. Clone the Repository
-'''
+```
 git clone https://github.com/your-username/CyReScoF.git
 cd CyReScoF
-'''
+```
 
 ### ✔ 2. Install Dependencies
-'''
+```
 pip install numpy pandas ttkbootstrap matplotlib
-'''
+```
 
 ### ▶️ Running the Application
-'''
+```
 python cyrescof_gui.py
-'''
+```
 
 The GUI will start instantly.
 
